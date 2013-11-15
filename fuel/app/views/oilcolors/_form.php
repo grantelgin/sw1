@@ -56,17 +56,18 @@
 
 		</div>
 		<div class="form-group">
-			<?php echo Form::label('B', 'b', array('class'=>'control-label')); ?>
-
-				<?php echo Form::input('b', Input::post('b', isset($oilColor) ? $oilColor->b : ''), array('class' => 'col-md-4 form-control', 'placeholder'=>'B')); ?>
-
-		</div>
-		<div class="form-group">
 			<?php echo Form::label('G', 'g', array('class'=>'control-label')); ?>
 
 				<?php echo Form::input('g', Input::post('g', isset($oilColor) ? $oilColor->g : ''), array('class' => 'col-md-4 form-control', 'placeholder'=>'G')); ?>
 
 		</div>
+		<div class="form-group">
+			<?php echo Form::label('B', 'b', array('class'=>'control-label')); ?>
+
+				<?php echo Form::input('b', Input::post('b', isset($oilColor) ? $oilColor->b : ''), array('class' => 'col-md-4 form-control', 'placeholder'=>'B')); ?>
+
+		</div>
+		
 		<div class="form-group">
 			<?php echo Form::label('A', 'a', array('class'=>'control-label')); ?>
 

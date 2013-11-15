@@ -32,8 +32,8 @@
 			<td><?php echo $item->y; ?></td>
 			<td><?php echo $item->k; ?></td>
 			<td><?php echo $item->r; ?></td>
-			<td><?php echo $item->b; ?></td>
 			<td><?php echo $item->g; ?></td>
+			<td><?php echo $item->b; ?></td>
 			<td><?php echo $item->a; ?></td>
 			<td><?php echo $item->notes; ?></td>
 			<td>

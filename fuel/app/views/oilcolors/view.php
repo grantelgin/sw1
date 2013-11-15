@@ -1,5 +1,6 @@
 <h2>Viewing <span class='muted'>#<?php echo $oilColor->id; ?></span></h2>
 
+
 <p>
 	<strong>Id:</strong>
 	<?php echo $oilColor->id; ?></p>
@@ -24,15 +25,16 @@
 <p>
 	<strong>K:</strong>
 	<?php echo $oilColor->k; ?></p>
-<p>
+<p style="background-color:rgb(<?php echo $oilColor->r; ?>, 0, 0);color:#fff;">
 	<strong>R:</strong>
 	<?php echo $oilColor->r; ?></p>
-<p>
-	<strong>B:</strong>
-	<?php echo $oilColor->b; ?></p>
-<p>
+<p style="background-color:rgb(0, <?php echo $oilColor->g; ?>, 0);color:#fff;">
 	<strong>G:</strong>
 	<?php echo $oilColor->g; ?></p>
+<p style="background-color:rgb(0, 0, <?php echo $oilColor->b; ?>);color:#fff;">
+	<strong>B:</strong>
+	<?php echo $oilColor->b; ?></p>
+<div style="background-color:rgb(<?php echo $oilColor->r; ?>, <?php echo $oilColor->g; ?>, <?php echo $oilColor->b; ?>);height:50px; text-align:center;color:#fff;padding-top:15px;">RGB Color mix</div>
 <p>
 	<strong>A:</strong>
 	<?php echo $oilColor->a; ?></p>
